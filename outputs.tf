@@ -9,3 +9,4 @@ output "sec_gr_id" {
 output "instance_id" {
   value = aws_instance.tfmyec2.*.id
 }
+##
