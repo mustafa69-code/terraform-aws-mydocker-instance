@@ -14,5 +14,5 @@ provider "aws" {
 
 module "docker_instance" {
     source = "<github-username>/docker-instance/aws"
-    key_name = "first-key-pair"
+    key_name = "your-key-pair"
 }
